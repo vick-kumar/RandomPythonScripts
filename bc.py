@@ -8,6 +8,7 @@ import os
 file = open('rockyou.txt', 'r+')  # This is your wordlist
 lines = file.readlines()
 
+angle = 0
 
 def brute():
     passwdstr = line.strip()
